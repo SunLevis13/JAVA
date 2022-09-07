@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.logging.*;
 // import java.util.logging.ConsoleHandler;
 // import java.util.logging.Level;
@@ -6,7 +7,7 @@ import java.util.logging.*;
 // import java.util.logging.FileHandler;
 
 public class Ex02 {
-   public static void main(String[] args) {
+   public static void main(String[] args) throws SecurityException, IOException {
        Logger logger = Logger.getLogger(Ex02.class.getName());
        logger.setLevel(Level.INFO);
     //    ConsoleHandler ch = new ConsoleHandler();
