@@ -5,8 +5,6 @@
 // Пример 1: а = 1, b = 7, c = 2, d = 1
 // Ответ: 3
 
-package SEM1_0309;
-
 public class task2 {
 
     static int solve(int start, int end,int com1, int com2) {

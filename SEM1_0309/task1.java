@@ -12,12 +12,21 @@
 
 public class task1 {
     
-    public static void main(int a, int b) {
-        
-        int a=1,b=2;
-        int c = a * b;
-        String res = String.format('%d * %d = %d\n', a,b,c);
-        System.out.printf('%d * %d = %d\n', a,b,c);
-        System.out.println(res);
+    static int pow(int value, int powValue) {
+        if (value == 0) 
+        System.out.println("не определено");
+        return (int) Math.pow(value, powValue);
+                    
+        }
+    
+    static double powd(double value, double powValue) {
+        return (double) Math.pow(value, powValue);
     }
-}
+   
+    public static void main(String[] args) {
+        
+        System.out.println(pow(3, 2)); // 9
+        System.out.println(powd(2, -2)); // 0.25
+        System.out.println(pow(3, 0)); // 1
+        System.out.println(pow(0, 0)); // 1
+    }}
