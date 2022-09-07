@@ -9,6 +9,12 @@
 // a 10
 // Результат нужно сохранить в файле output.txt
 // 1000
+// import java.io.IOException;
+
+// import java.io.File;
+// import java.io.FileReader;
+
+
 
 public class task1 {
     
@@ -23,10 +29,35 @@ public class task1 {
         return (double) Math.pow(value, powValue);
     }
    
+    
+    
+    // public String readFile(String n_file) throws IOException
+    // {
+    //     String content = null;
+    //     File file = new File("input.txt"); // For example, foo.txt
+    //     FileReader reader = null;
+    //     try {
+    //         reader = new FileReader(file);
+    //         char[] chars = new char[(int) file.length()];
+    //         reader.read(chars);
+    //         content = new String(chars);
+    //         reader.close();
+    //     } catch (IOException e) {
+    //         e.printStackTrace();
+    //     } finally {
+    //         if(reader != null){
+    //             reader.close();
+    //         }
+    //     }
+    //     return content;
+    // }
+    
     public static void main(String[] args) {
         
         System.out.println(pow(3, 2)); // 9
         System.out.println(powd(2, -2)); // 0.25
         System.out.println(pow(3, 0)); // 1
         System.out.println(pow(0, 0)); // 1
-    }}
+        
+    }
+}
