@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-09-20T16:49:33.081675700Z</date>
+  <millis>1663692573081</millis>
+  <nanos>675700</nanos>
+  <sequence>0</sequence>
+  <logger>Ex02</logger>
+  <level>WARNING</level>
+  <class>Ex02</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Тестовое логирование</message>
+</record>
+<record>
+  <date>2022-09-20T16:49:33.141880Z</date>
+  <millis>1663692573141</millis>
+  <nanos>880000</nanos>
+  <sequence>1</sequence>
+  <logger>Ex02</logger>
+  <level>INFO</level>
+  <class>Ex02</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Тестовое логирование</message>
+</record>
+</log>

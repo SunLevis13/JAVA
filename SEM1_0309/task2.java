@@ -30,7 +30,7 @@ public class task2 {
     }
 
     public static void main(String[] args) {
-        System.out.println(solve(2,30,2,3));
+        System.out.println(solve(1,7,2,1));
         
     }
 }
